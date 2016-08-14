@@ -1,14 +1,12 @@
-import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 
 
-public class ProfileImplTest {
+public class ProfileTest {
 
-    ProfileImpl profile1 = new ProfileImpl("John");
-    ProfileImpl profile2 = new ProfileImpl("Sara");
+    Profile profile1 = new Profile("John");
+    Profile profile2 = new Profile("Sara");
 
     @Test
     public void addFriend() throws Exception {
